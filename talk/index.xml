@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Eero Hakavuori</title>
+    <link>/talk/</link>
+    <description>Recent content in Talks on Eero Hakavuori</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Regularity from quantified flatness</title>
+      <link>/talk/gradsem2018/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/gradsem2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A metric tangent approach to regularity of geodesics in sub-Riemannian manifolds</title>
+      <link>/talk/grenoble_tangent/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0300</pubDate>
+      
+      <guid>/talk/grenoble_tangent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-minimality of corners in subriemannian geometry</title>
+      <link>/talk/padova_corners/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0300</pubDate>
+      
+      <guid>/talk/padova_corners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tangent and asymptotic cones of geodesics in Carnot groups</title>
+      <link>/talk/sr_and_beyond/</link>
+      <pubDate>Thu, 22 Feb 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/sr_and_beyond/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quasiregular ellipticity</title>
+      <link>/talk/qr_ellipticity/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0300</pubDate>
+      
+      <guid>/talk/qr_ellipticity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fiber bundles</title>
+      <link>/talk/gradsem2017/</link>
+      <pubDate>Fri, 17 Feb 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/gradsem2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Milnor&#39;s exotic structures</title>
+      <link>/talk/gradsem/</link>
+      <pubDate>Fri, 18 Nov 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/gradsem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-minimality of corners in subriemannian geometry</title>
+      <link>/talk/bergen/</link>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/talk/bergen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-minimality of corners in subriemannian geometry</title>
+      <link>/talk/jkl_corners/</link>
+      <pubDate>Tue, 03 May 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/talk/jkl_corners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The search for non-smooth geodesics in subriemannian geometry</title>
+      <link>/talk/gradsem2016/</link>
+      <pubDate>Fri, 26 Feb 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/gradsem2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

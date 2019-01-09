@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Eero Hakavuori</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on Eero Hakavuori</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blowups and blowdowns of geodesics in Carnot groups</title>
+      <link>/publication/cones/</link>
+      <pubDate>Fri, 05 Oct 2018 00:00:00 +0300</pubDate>
+      
+      <guid>/publication/cones/</guid>
+      <description>Eero Hakavuori and Enrico Le Donne, Blowups and blowdowns of geodesics in Carnot groups, ArXiv e-prints (2018).</description>
+    </item>
+    
+    <item>
+      <title>Non-minimality of corners in subriemannian geometry</title>
+      <link>/publication/corners/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/corners/</guid>
+      <description>Hakavuori, E. &amp;amp; Le Donne, E. Invent. math. (2016) 206: 693. doi:10.1007/s00222-016-0661-9</description>
+    </item>
+    
+  </channel>
+</rss>
