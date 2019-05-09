@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eero Hakavuori</title>
+    <link>/authors/eero-hakavuori/</link>
+    <description>Recent content on Eero Hakavuori</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/eero-hakavuori/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Infinite geodesics and isometric embeddings in Carnot groups of step 2</title>
+      <link>/publication/step2-geodesics/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/step2-geodesics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blowups and blowdowns of geodesics in Carnot groups</title>
+      <link>/publication/cones/</link>
+      <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/cones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-minimality of corners in subriemannian geometry</title>
+      <link>/publication/corners/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/corners/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

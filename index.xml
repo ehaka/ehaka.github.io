@@ -1,18 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eero Hakavuori on Eero Hakavuori</title>
+    <title>Eero Hakavuori</title>
     <link>/</link>
-    <description>Recent content in Eero Hakavuori on Eero Hakavuori</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on Eero Hakavuori</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0200</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Mon, 13 May 2019 14:15:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Isometric embeddings in Carnot groups of step 2</title>
+      <link>/talk/jkl_step2/</link>
+      <pubDate>Mon, 13 May 2019 14:15:00 +0000</pubDate>
+      
+      <guid>/talk/jkl_step2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infinite geodesics and isometric embeddings in Carnot groups of step 2</title>
+      <link>/publication/step2-geodesics/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/step2-geodesics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Necessary conditions for length-minimality in sub-Riemannian geometry</title>
       <link>/talk/jkl_necessary_cond/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 06 Feb 2019 14:15:00 +0000</pubDate>
       
       <guid>/talk/jkl_necessary_cond/</guid>
       <description></description>
@@ -21,7 +42,7 @@
     <item>
       <title>Regularity from quantified flatness</title>
       <link>/talk/gradsem2018/</link>
-      <pubDate>Fri, 09 Nov 2018 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 09 Nov 2018 14:15:00 +0000</pubDate>
       
       <guid>/talk/gradsem2018/</guid>
       <description></description>
@@ -30,7 +51,7 @@
     <item>
       <title>A metric tangent approach to regularity of geodesics in sub-Riemannian manifolds</title>
       <link>/talk/grenoble_tangent/</link>
-      <pubDate>Thu, 18 Oct 2018 00:00:00 +0300</pubDate>
+      <pubDate>Thu, 18 Oct 2018 14:00:00 +0000</pubDate>
       
       <guid>/talk/grenoble_tangent/</guid>
       <description></description>
@@ -39,18 +60,16 @@
     <item>
       <title>Blowups and blowdowns of geodesics in Carnot groups</title>
       <link>/publication/cones/</link>
-      <pubDate>Fri, 05 Oct 2018 00:00:00 +0300</pubDate>
+      <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/publication/cones/</guid>
-      <description>&lt;p&gt;Eero Hakavuori and Enrico Le Donne, Blowups and blowdowns of geodesics in
-Carnot groups, ArXiv e-prints (2018).&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
       <title>Non-minimality of corners in subriemannian geometry</title>
       <link>/talk/padova_corners/</link>
-      <pubDate>Tue, 24 Apr 2018 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 24 Apr 2018 12:30:00 +0000</pubDate>
       
       <guid>/talk/padova_corners/</guid>
       <description></description>
@@ -59,7 +78,7 @@ Carnot groups, ArXiv e-prints (2018).&lt;/p&gt;
     <item>
       <title>Tangent and asymptotic cones of geodesics in Carnot groups</title>
       <link>/talk/sr_and_beyond/</link>
-      <pubDate>Thu, 22 Feb 2018 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 22 Feb 2018 15:00:00 +0000</pubDate>
       
       <guid>/talk/sr_and_beyond/</guid>
       <description></description>
@@ -68,7 +87,7 @@ Carnot groups, ArXiv e-prints (2018).&lt;/p&gt;
     <item>
       <title>Quasiregular ellipticity</title>
       <link>/talk/qr_ellipticity/</link>
-      <pubDate>Mon, 23 Oct 2017 00:00:00 +0300</pubDate>
+      <pubDate>Mon, 23 Oct 2017 10:15:00 +0000</pubDate>
       
       <guid>/talk/qr_ellipticity/</guid>
       <description></description>
@@ -77,7 +96,7 @@ Carnot groups, ArXiv e-prints (2018).&lt;/p&gt;
     <item>
       <title>Fiber bundles</title>
       <link>/talk/gradsem2017/</link>
-      <pubDate>Fri, 17 Feb 2017 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 17 Feb 2017 13:00:00 +0000</pubDate>
       
       <guid>/talk/gradsem2017/</guid>
       <description></description>
@@ -86,7 +105,7 @@ Carnot groups, ArXiv e-prints (2018).&lt;/p&gt;
     <item>
       <title>Milnor&#39;s exotic structures</title>
       <link>/talk/gradsem/</link>
-      <pubDate>Fri, 18 Nov 2016 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 18 Nov 2016 10:15:00 +0000</pubDate>
       
       <guid>/talk/gradsem/</guid>
       <description></description>
@@ -95,7 +114,7 @@ Carnot groups, ArXiv e-prints (2018).&lt;/p&gt;
     <item>
       <title>Non-minimality of corners in subriemannian geometry</title>
       <link>/talk/bergen/</link>
-      <pubDate>Thu, 12 May 2016 00:00:00 +0300</pubDate>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
       
       <guid>/talk/bergen/</guid>
       <description></description>
@@ -104,7 +123,7 @@ Carnot groups, ArXiv e-prints (2018).&lt;/p&gt;
     <item>
       <title>Non-minimality of corners in subriemannian geometry</title>
       <link>/talk/jkl_corners/</link>
-      <pubDate>Tue, 03 May 2016 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 03 May 2016 14:15:00 +0000</pubDate>
       
       <guid>/talk/jkl_corners/</guid>
       <description></description>
@@ -113,17 +132,16 @@ Carnot groups, ArXiv e-prints (2018).&lt;/p&gt;
     <item>
       <title>Non-minimality of corners in subriemannian geometry</title>
       <link>/publication/corners/</link>
-      <pubDate>Wed, 23 Mar 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>/publication/corners/</guid>
-      <description>&lt;p&gt;Hakavuori, E. &amp;amp; Le Donne, E. Invent. math. (2016) 206: 693. doi:10.1007/s00222-016-0661-9&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
       <title>The search for non-smooth geodesics in subriemannian geometry</title>
       <link>/talk/gradsem2016/</link>
-      <pubDate>Fri, 26 Feb 2016 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 26 Feb 2016 13:00:00 +0000</pubDate>
       
       <guid>/talk/gradsem2016/</guid>
       <description></description>
