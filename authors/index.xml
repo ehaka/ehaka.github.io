@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 08 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Eero Hakavuori</title>
       <link>/authors/eero-hakavuori/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/eero-hakavuori/</guid>
       <description></description>
@@ -36,7 +36,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/authors/admin/</guid>
-      <description>I am a mathematics PhD student at the University of Jyväskylä under the supervision of Associate Professor Enrico Le Donne since April 2015. My thesis work is to study the regularity of geodesics and the Sard problem in sub-Riemannian geometry, with a particular focus on the case of sub-Riemannian Carnot groups.</description>
+      <description>Starting October 2019, I will be working as a postdoc at SISSA. I completed my PhD in August 2019 at the University of Jyväskylä under the supervision of Associate Professor Enrico Le Donne. My work mainly revolves around the regularity of geodesics and the Sard problem in sub-Riemannian geometry, with a particular focus on the case of sub-Riemannian and sub-Finsler Carnot groups.</description>
     </item>
     
   </channel>
