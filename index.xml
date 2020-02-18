@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2020 14:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Publications</title>
       <link>/publication/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/publication/</guid>
       <description></description>
@@ -27,56 +27,12 @@
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/mats132/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;mats132_luennot.pdf&#34;&gt;Luentomuistiinpanot&lt;/a&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Luentomuistiinpanot&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h2 id=&#34;aikataulu&#34;&gt;Aikataulu&lt;/h2&gt;
-
-&lt;table&gt;
-&lt;tr&gt;&lt;td&gt;viikko&lt;/td&gt;&lt;td&gt;luento (D355)&lt;/td&gt;&lt;td&gt;demo (D245)&lt;/td&gt;&lt;td&gt;luento (D245)&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;luento_01_0901.pdf&#34;&gt;ti 09.01.&lt;/a&gt;&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;luento_02_1101.pdf&#34;&gt;to 11.01.&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;luento_03_1601.pdf&#34;&gt;ti 16.01.&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mats132_demo1.pdf&#34;&gt;ke 17.01.&lt;/a&gt; &lt;a href=&#34;mats132_demo1_ratk.pdf&#34;&gt;(ratk)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;luento_04_1801.pdf&#34;&gt;to 18.01.&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;&lt;a href=&#34;luento_05_2301.pdf&#34;&gt;ti 23.01.&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mats132_demo2.pdf&#34;&gt;ke 24.01.&lt;/a&gt; &lt;a href=&#34;mats132_demo2_ratk.pdf&#34;&gt;(ratk)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;luento_06_2501.pdf&#34;&gt;to 25.01.&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;
-&lt;a href=&#34;luento_07_0602.pdf&#34;&gt;ti 06.02.&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mats132_demo3.pdf&#34;&gt;ke 07.02.&lt;/a&gt; &lt;a href=&#34;mats132_demo3_ratk.pdf&#34;&gt;(ratk)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;luento_08_0802.pdf&#34;&gt;to 08.02.&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;luento_09_1302.pdf&#34;&gt;ti 13.02.&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mats132_demo4.pdf&#34;&gt;ke 14.02. &lt;a href=&#34;mats132_demo4_ratk.pdf&#34;&gt;(ratk)&lt;/a&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;luento_10_1502.pdf&#34;&gt;to 15.02.&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;luento_11_2702.pdf&#34;&gt;ti 27.02.&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mats132_demo5.pdf&#34;&gt;ke 28.02.&lt;/a&gt; &lt;a href=&#34;mats132_demo5_ratk.pdf&#34;&gt;(ratk)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;luento_12_0103.pdf&#34;&gt;to 01.03.&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mats132_demo6.pdf&#34;&gt;ke 07.03.&lt;/a&gt; &lt;a href=&#34;mats132_demo6_ratk.pdf&#34;&gt;(ratk)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-
+&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;suoritus&#34;&gt;Suoritus&lt;/h2&gt;
-
-&lt;p&gt;Lopputentti 30p + demohyvitykset:
-&lt;table&gt;
-&lt;tr&gt;&lt;td&gt;Tehty&lt;/td&gt;&lt;td&gt;15%&lt;/td&gt;&lt;td&gt;30%&lt;/td&gt;&lt;td&gt;45%&lt;/td&gt;&lt;td&gt;60%&lt;/td&gt;&lt;td&gt;75%&lt;/td&gt;&lt;td&gt;90%&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;Hyvitys&lt;/td&gt;&lt;td&gt;1p&lt;/td&gt;&lt;td&gt;2p&lt;/td&gt;&lt;td&gt;3p&lt;/td&gt;&lt;td&gt;4p&lt;/td&gt;&lt;td&gt;5p&lt;/td&gt;&lt;td&gt;6p&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;&lt;/p&gt;
+&lt;p&gt;Lopputentti 30p + demohyvitykset:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
 </description>
     </item>
     
@@ -95,15 +51,6 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>/talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid></guid>
       <description></description>
     </item>
     
