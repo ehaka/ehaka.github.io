@@ -3,54 +3,164 @@
   <channel>
     <title>Eero Hakavuori</title>
     <link>/</link>
-    <description>Recent content on Eero Hakavuori</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 25 Feb 2020 14:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eero Hakavuori</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Eero Hakavuori</title>
+      <link>/</link>
+    </image>
     
     <item>
-      <title>Publications</title>
-      <link>/publication/</link>
+      <title>ODE trajectories as abnormal curves in Carnot groups</title>
+      <link>/publication/ode-abnormals/</link>
+      <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/ode-abnormals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infinite geodesics in Carnot groups</title>
+      <link>/talk/paris_sr_seminar/</link>
+      <pubDate>Tue, 25 Feb 2020 14:00:00 +0000</pubDate>
+      <guid>/talk/paris_sr_seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infinite geodesics and isometric embeddings in Carnot groups of step 2</title>
+      <link>/publication/step2-geodesics/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/</guid>
+      <guid>/publication/step2-geodesics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>MATS132 Lineaariset Lien ryhmät (kevät 2018)</title>
-      <link>/mats132/</link>
-      <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/mats132/</guid>
-      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Luentomuistiinpanot&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;h2 id=&#34;aikataulu&#34;&gt;Aikataulu&lt;/h2&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;suoritus&#34;&gt;Suoritus&lt;/h2&gt;
-&lt;p&gt;Lopputentti 30p + demohyvitykset:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>/post/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
-      
-      <guid>/post/</guid>
+      <title>A metric viewpoint to sub-Riemannian optimal control</title>
+      <link>/talk/sissa_sr_opt_control/</link>
+      <pubDate>Tue, 15 Oct 2019 16:00:00 +0000</pubDate>
+      <guid>/talk/sissa_sr_opt_control/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Talks</title>
-      <link>/talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
-      
-      <guid>/talk/</guid>
+      <title>Sub-Riemannian geodesics (thesis)</title>
+      <link>/publication/thesis/</link>
+      <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isometric embeddings in Carnot groups of step 2</title>
+      <link>/talk/jkl_step2/</link>
+      <pubDate>Mon, 13 May 2019 14:15:00 +0000</pubDate>
+      <guid>/talk/jkl_step2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Necessary conditions for length-minimality in sub-Riemannian geometry</title>
+      <link>/talk/jkl_necessary_cond/</link>
+      <pubDate>Wed, 06 Feb 2019 14:15:00 +0000</pubDate>
+      <guid>/talk/jkl_necessary_cond/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regularity from quantified flatness</title>
+      <link>/talk/gradsem2018/</link>
+      <pubDate>Fri, 09 Nov 2018 14:15:00 +0000</pubDate>
+      <guid>/talk/gradsem2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A metric tangent approach to regularity of geodesics in sub-Riemannian manifolds</title>
+      <link>/talk/grenoble_tangent/</link>
+      <pubDate>Thu, 18 Oct 2018 14:00:00 +0000</pubDate>
+      <guid>/talk/grenoble_tangent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blowups and blowdowns of geodesics in Carnot groups</title>
+      <link>/publication/cones/</link>
+      <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/cones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-minimality of corners in subriemannian geometry</title>
+      <link>/talk/padova_corners/</link>
+      <pubDate>Tue, 24 Apr 2018 12:30:00 +0000</pubDate>
+      <guid>/talk/padova_corners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tangent and asymptotic cones of geodesics in Carnot groups</title>
+      <link>/talk/sr_and_beyond/</link>
+      <pubDate>Thu, 22 Feb 2018 15:00:00 +0000</pubDate>
+      <guid>/talk/sr_and_beyond/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quasiregular ellipticity</title>
+      <link>/talk/qr_ellipticity/</link>
+      <pubDate>Mon, 23 Oct 2017 10:15:00 +0000</pubDate>
+      <guid>/talk/qr_ellipticity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fiber bundles</title>
+      <link>/talk/gradsem2017/</link>
+      <pubDate>Fri, 17 Feb 2017 13:00:00 +0000</pubDate>
+      <guid>/talk/gradsem2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Milnor&#39;s exotic structures</title>
+      <link>/talk/gradsem/</link>
+      <pubDate>Fri, 18 Nov 2016 10:15:00 +0000</pubDate>
+      <guid>/talk/gradsem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-minimality of corners in subriemannian geometry</title>
+      <link>/talk/bergen/</link>
+      <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
+      <guid>/talk/bergen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-minimality of corners in subriemannian geometry</title>
+      <link>/talk/jkl_corners/</link>
+      <pubDate>Tue, 03 May 2016 14:15:00 +0000</pubDate>
+      <guid>/talk/jkl_corners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-minimality of corners in subriemannian geometry</title>
+      <link>/publication/corners/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/corners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The search for non-smooth geodesics in subriemannian geometry</title>
+      <link>/talk/gradsem2016/</link>
+      <pubDate>Fri, 26 Feb 2016 13:00:00 +0000</pubDate>
+      <guid>/talk/gradsem2016/</guid>
       <description></description>
     </item>
     

@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MATS132 Lineaariset Lien ryhmät (kevät 2018) on Eero Hakavuori</title>
+    <title>MATS132 Lineaariset Lien ryhmät (kevät 2018) | Eero Hakavuori</title>
     <link>/mats132/</link>
-    <description>Recent content in MATS132 Lineaariset Lien ryhmät (kevät 2018) on Eero Hakavuori</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 04 Jan 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/mats132/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/mats132/index.xml" rel="self" type="application/rss+xml" />
+    <description>MATS132 Lineaariset Lien ryhmät (kevät 2018)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 04 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>MATS132 Lineaariset Lien ryhmät (kevät 2018)</title>
+      <link>/mats132/</link>
+    </image>
     
   </channel>
 </rss>

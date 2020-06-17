@@ -1,43 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Eero Hakavuori</title>
+    <title>Authors | Eero Hakavuori</title>
     <link>/authors/</link>
-    <description>Recent content in Authors on Eero Hakavuori</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 12 Feb 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Eero Hakavuori</title>
-      <link>/authors/eero-hakavuori/</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/eero-hakavuori/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Enrico Le Donne</title>
-      <link>/authors/enrico-le-donne/</link>
-      <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/enrico-le-donne/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/admin/</guid>
-      <description>I am a postdoc researcher at SISSA. I completed my PhD in August 2019 at the University of Jyväskylä under the supervision of Enrico Le Donne. My work mainly revolves around the regularity of geodesics and the Sard problem in sub-Riemannian geometry, with a particular focus on the case of sub-Riemannian and sub-Finsler Carnot groups.</description>
-    </item>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
     
   </channel>
 </rss>
