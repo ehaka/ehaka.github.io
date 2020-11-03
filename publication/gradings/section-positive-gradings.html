@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--**************************************-->
+<!--*    Generated from PreTeXt source   *-->
+<!--*    on 2020-10-30T07:31:58+01:00    *-->
+<!--*                                    *-->
+<!--*      https://pretextbook.org       *-->
+<!--*                                    *-->
+<!--**************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Existence of a positive realization</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['\\(','\\)']]
+    },
+    asciimath2jax: {
+        ignoreClass: ".*",
+        processClass: "has_am"
+    },
+    jax: ["input/AsciiMath"],
+    extensions: ["asciimath2jax.js"],
+    TeX: {
+        extensions: ["extpfeil.js", "autobold.js", "https://pretextbook.org/js/lib/mathjaxknowl.js", "AMScd.js", ],
+        // scrolling to fragment identifiers is controlled by other Javascript
+        positionToHash: false,
+        equationNumbers: { autoNumber: "none", useLabelIds: true, },
+        TagSide: "right",
+        TagIndent: ".8em",
+    },
+    // HTML-CSS output Jax to be dropped for MathJax 3.0
+    "HTML-CSS": {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+    CommonHTML: {
+        scale: 88,
+        mtextFontInherit: true,
+    },
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML-full"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/colors_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body id="gradings" class="mathbook-article has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div class="hidden-content" style="display:none">\(\newcommand{\RR}{\mathbb{R}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\restr}[2]{\left.#1\right\vert_{#2}}
+\newcommand{\trestr}[2]{}
+\newcommand{\boundedpol}[1]{P_{#1}}
+\newcommand{\realdiag}[1]{\mathcal{R}(#1)}
+\newcommand{\division}{\operatorname{div}}
+\newcommand{\gradingrefinements}[1]{\operatorname{ext}(#1)}
+\newcommand{\quotientprojection}{\pi}
+\newcommand{\der}{\operatorname{der}}
+\newcommand{\gradingpreservingmaps}{L}
+\newcommand{\ad}{\operatorname{ad}}
+\newcommand{\Ad}{\operatorname{Ad}}
+\newcommand{\partitions}[2]{P(#1,#2)}
+\newcommand{\homogeneousform}{Q}
+\newcommand{\multilinearmap}{B}
+
+\newcommand{\vali}[1]{\mathopen{]} #1 \mathclose{[}}
+\newcommand{\valir}[1]{\mathopen{[} #1 \mathclose{[}}
+\newcommand{\valil}[1]{\mathopen{]} #1 \mathclose{]}}
+\newcommand{\pp}[1]{\mathrm{#1}}
+\newcommand{\Partition}{\mathcal{K}}
+
+\newcommand{\g}{\mathfrak g}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="gradings_of_nilpotent_lie_alg.html"><span class="title">Gradings for nilpotent Lie algebras</span></a></h1>
+<p class="byline">Eero Hakavuori, Ville Kivioja, Terhi Moisala, Francesca Tripaldi</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="backmatter-1.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="backmatter-1.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="appendix-classification.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="backmatter-1.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="backmatter-1.html" title="Up">Up</a><a class="next-button button toolbar-item" href="appendix-classification.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter-1.html" data-scroll="frontmatter-1"><span class="title">Front Matter</span></a><ul><li><a href="acknowledgement-1.html" data-scroll="acknowledgement-1">Acknowledgements</a></li></ul>
+</li>
+<li class="link">
+<a href="section-introduction.html" data-scroll="section-introduction"><span class="codenumber">1</span> <span class="title">Introduction</span></a><ul>
+<li><a href="section-introduction.html#subsection-1" data-scroll="subsection-1">Overview</a></li>
+<li><a href="section-introduction.html#subsection-2" data-scroll="subsection-2">Main results</a></li>
+<li><a href="section-introduction.html#subsection-3" data-scroll="subsection-3">Structure of the paper</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="section-gradings.html" data-scroll="section-gradings"><span class="codenumber">2</span> <span class="title">Gradings</span></a><ul>
+<li><a href="section-gradings.html#ssec-gradings-and-equivalences" data-scroll="ssec-gradings-and-equivalences">Gradings and equivalences</a></li>
+<li><a href="section-gradings.html#ssec-univ-gradings" data-scroll="ssec-univ-gradings">Universal gradings</a></li>
+<li><a href="section-gradings.html#sec-gradings-by-tori" data-scroll="sec-gradings-by-tori">Gradings induced by tori</a></li>
+<li><a href="section-gradings.html#section-maximal-gradings" data-scroll="section-maximal-gradings">Maximal gradings</a></li>
+<li><a href="section-gradings.html#subsection-torsion-free" data-scroll="subsection-torsion-free">Enumeration of torsion-free gradings</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="section-constructions.html" data-scroll="section-constructions"><span class="codenumber">3</span> <span class="title">Constructions</span></a><ul>
+<li><a href="section-constructions.html#section-stratifications" data-scroll="section-stratifications">Stratifications</a></li>
+<li><a href="section-constructions.html#sssec-pos-gradings" data-scroll="sssec-pos-gradings">Positive gradings</a></li>
+<li><a href="section-constructions.html#section-maximal-construction" data-scroll="section-maximal-construction">Maximal gradings</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="section-applications.html" data-scroll="section-applications"><span class="codenumber">4</span> <span class="title">Applications</span></a><ul>
+<li><a href="section-applications.html#applications-structure" data-scroll="applications-structure">Structure from maximal gradings</a></li>
+<li><a href="section-applications.html#applications-classification" data-scroll="applications-classification">Classification of gradings in low dimension</a></li>
+<li><a href="section-applications.html#applications-heintze" data-scroll="applications-heintze">Enumerating Heintze groups</a></li>
+<li><a href="section-applications.html#applications-lpq" data-scroll="applications-lpq">Bounds for non-vanishing \(\ell^{q,p}\) cohomology</a></li>
+</ul>
+</li>
+<li class="link backmatter"><a href="backmatter-1.html" data-scroll="backmatter-1"><span class="title">Back Matter</span></a></li>
+<li class="link active"><a href="section-positive-gradings.html" data-scroll="section-positive-gradings"><span class="codenumber">A</span> <span class="title">Existence of a positive realization</span></a></li>
+<li class="link">
+<a href="appendix-classification.html" data-scroll="appendix-classification"><span class="codenumber">B</span> <span class="title">The complete classification in low dimension</span></a><ul>
+<li><a href="appendix-classification.html#classification-overview" data-scroll="classification-overview">Overview</a></li>
+<li><a href="classification-dim2.html">Dimension 2</a></li>
+<li><a href="classification-dim3.html">Dimension 3</a></li>
+<li><a href="classification-dim4.html">Dimension 4</a></li>
+<li><a href="classification-dim5.html">Dimension 5</a></li>
+<li><a href="classification-dim6.html">Dimension 6</a></li>
+<li><a href="classification-dim7.html">Dimension 7</a></li>
+</ul>
+</li>
+<li class="link"><a href="appendix-3.html" data-scroll="appendix-3"><span class="codenumber">C</span> <span class="title">Notation</span></a></li>
+<li class="link"><a href="section-references.html" data-scroll="section-references"><span class="title">References</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="appendix" id="section-positive-gradings"><h2 class="heading hide-type">
+<span class="type">Appendix</span> <span class="codenumber">A</span> <span class="title">Existence of a positive realization</span>
+</h2>
+<p id="p-208"><a class="xref" data-knowl="./knowl/example-non-pos-grading-for-heisenberg.html" title="Example 2.5">Example 2.5</a> motivates an alternate approach for deciding the existence of a positive realization. The grading of that example does not admit a positive realization: suppose by contradiction that there is an injection \(\{a,b,c,d\} \rightarrow \mathbb{R}\) that gives a positive realization. The bracket relations of the Lie algebra imply the equations \(a+c=d\) and \(b+d=c\text{,}\) which are impossible for positive weights. Here the non-existence of a positive realization is found simply by considering the equations implied by the bracket relations of the subspaces.</p>
+<p id="p-209">In general, a grading can be realized over some abelian group \(A\) with the set of weights \(\{\lambda_1,\ldots,\lambda_k\}\) if and only if a certain system of equations of the type \(\lambda_i + \lambda_j = \lambda_h\) has a solution \((\lambda_1,\ldots,\lambda_k)\) whose components are all distinct. This system consists of equations coming from non-trivial bracket relations among the layers of the grading, see step <a class="xref" data-knowl="./knowl/alg-grading-relations2.html" title="Item 2">Item 2</a> of <a class="xref" data-knowl="./knowl/algorithm-integer-vector-grading.html" title="Algorithm 2.14: Universal realization">Algorithm 2.14</a>. A positive realization exists if and only if there is a solution in the group \(A=\mathbb{R}\) with all weights strictly positive, but not necessarily distinct, see <a class="xref" data-knowl="./knowl/rmk-distinctness-can-be-unworried.html" title="Remark A.5">Remark A.5</a>.</p>
+<p id="p-210">Deciding if a solution exists with all components strictly positive is a classical problem in linear programming. By rescaling, we may replace the open conditions \(\lambda_i &gt;0 \) with the closed conditions \(\lambda_i \geq 1\text{.}\) By a change of variables \(\mu_i=\lambda_i-1\text{,}\) we find that the linear problem for the existence of a positive realization is equivalent to an affine problem \(\mu_{i} + \mu_{j} - \mu_{h} = -1\) with all the components \(\mu_i\) non-negative.</p>
+<p id="p-211">Let \(A\) be the \(N \times k \)-matrix of coefficients of the affine problem and let \(\mathbf{b} = (-1,-1,\ldots, -1) \in \mathbb{R}^N\text{.}\) By getting rid of linearly dependent equations, we may assume that \(\mathrm{rank}(A) = N \le k\text{.}\) Our goal is then an algorithm that either produces an element of the set</p>
+<div class="displaymath">
+\begin{equation}
+P = \{ \mathbf{x} \in \mathbb{R}^{k} \mid A \mathbf{x} = \mathbf{b} \text{ and } \mathbf{x} \ge 0 \}\label{the-set-of-interest-P}\tag{A.1}
+\end{equation}
+</div>
+<p data-braille="continuation">or indicates that the set \(P\) is empty. Here we use the shorthand notation \(\mathbf{x} \ge 0 \) to mean that all the components of the vector \(\mathbf{x} \) are non-negative. Notice that the set \(P\) of solutions is closed and convex.</p>
+<p id="p-212">There is a vast literature on how to solve linear programming problems, and we refer to the book <a class="xref" data-knowl="./knowl/LPP-theory_and_algorithms.html" title="Bibliographic Entry 19: Linear optimization and extensions: Theory and algorithms">[19]</a> in particular. This approach and in particular <a class="xref" data-knowl="./knowl/lemma-extremals-come-with-particular-construction.html" title="Lemma A.3">Lemma A.3</a> below are basically from section 2.4 of that book. We state them here for completeness.</p>
+<article class="definition definition-like" id="definition-18"><h6 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">A.1</span><span class="period">.</span>
+</h6>
+<p id="p-213">Let \(K \subset \mathbb{R}^n \) be a convex set. We say that a point \(x \in K\) is an <dfn class="terminology">extremal point</dfn> if it cannot be expressed as a non-trivial convex combination of the points of \(K\text{.}\)</p></article><article class="lemma theorem-like" id="lemma-extremal_exists1"><h6 class="heading">
+<span class="type">Lemma</span><span class="space"> </span><span class="codenumber">A.2</span><span class="period">.</span>
+</h6>
+<p id="p-214">Let \(K \subset \mathbb{R}^n \) be a closed convex non-empty set for which \(\mathbf{x} \ge 0 \) for all \(\mathbf{x} \in K \text{.}\) Then \(K \) contains at least one extremal point.</p></article><article class="hiddenproof" id="proof-19"><a data-knowl="" class="id-ref original" data-refid="hk-proof-19"><h6 class="heading"><span class="type">Proof<span class="period">.</span></span></h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-proof-19"><article class="hiddenproof"><p id="p-215">Consider the lexicographic order \(\prec\) on \(\mathbb{R}^n\text{,}\) where \(\mathbf{x}\prec\mathbf{y}\) if there exists some index \(i\in\{1,\ldots,n\}\) such that \(\mathbf{x}_j=\mathbf{y}_j\) for all \(j\lt i\) and \(\mathbf{x}_i\lt \mathbf{y}_i\text{.}\) Observe that if \(x\prec y\text{,}\) then</p>
+<div class="displaymath">
+\begin{equation}
+\mathbf{x}\prec t\mathbf{x}+(1-t)\mathbf{y}\label{eq-lex-order-convex-combination}\tag{A.2}
+\end{equation}
+</div>
+<p data-braille="continuation">for every \(0\lt t\lt 1\text{.}\) Since \(\mathbf{x}\geq 0\) for all \(\mathbf{x}\in K\text{,}\) there exists a lexicographic minimum \(\mathbf{x}_{\min}\in K\text{.}\) It follows from <a class="xref" data-knowl="./knowl/eq-lex-order-convex-combination.html" title="Equation A.2">(A.2)</a> that the point \(\mathbf{x}_{\min}\) cannot be expressed as a non-trivial convex combination.</p></article></div>
+<article class="lemma theorem-like" id="lemma-extremals-come-with-particular-construction"><h6 class="heading">
+<span class="type">Lemma</span><span class="space"> </span><span class="codenumber">A.3</span><span class="period">.</span>
+</h6>
+<p id="p-216">Let \(P\) be the set of non-negative solutions of a system \(A\mathbf{x}=\mathbf{b}\) as in <a class="xref" data-knowl="./knowl/the-set-of-interest-P.html" title="Equation A.1">(A.1)</a>. Let \(\mathbf{x} \in \mathbb{R}^{k} \) be an extremal point of \(P\text{.}\) Then there exists an invertible \(N \times N\) matrix \(B\) whose columns are chosen from the matrix \(A\text{,}\) such that up to a permutation of components, \(\mathbf{x} = (B^{-1}(\mathbf{b}),0,\ldots,0) \in \mathbb{R}^k\text{.}\)</p></article><article class="hiddenproof" id="proof-20"><a data-knowl="" class="id-ref original" data-refid="hk-proof-20"><h6 class="heading"><span class="type">Proof<span class="period">.</span></span></h6></a></article><div class="hidden-content tex2jax_ignore" id="hk-proof-20"><article class="hiddenproof"><p id="p-217">By permuting the basis, we can express \(\mathbf{x} = (\mathbf{x}_+,0,\ldots,0) \text{,}\) where \(\mathbf{x}_+ \in \mathbb{R}^p \) for some \(p \le k\) and \(\mathbf{x}_+ &gt; 0 \text{.}\) Let \(A_+ \) be the matrix consisting of the first \(p\) columns of \(A\text{.}\) First we show that the matrix \(A_+\) has rank \(p\text{.}\) Suppose toward a contradiction that there is  a non-zero vector \(\mathbf{w} \in \mathbb{R}^p \) such that \(A_+ \mathbf{w} =0 \text{.}\) Let \(\delta &gt;0 \) be so small that the vectors</p>
+<div class="displaymath">
+\begin{equation*}
+\mathbf{z}_1 = \mathbf{x}_+ + \delta \mathbf{w} \qquad \mathbf{z}_2 = \mathbf{x}_+ - \delta \mathbf{w}
+\end{equation*}
+</div>
+<p data-braille="continuation">both satisfy \(\mathbf{z}_1, \mathbf{z}_2 \ge 0 \text{.}\) For both \(i \in \{1,2\} \text{,}\) let \(\mathbf{u}_i = ( \mathbf{z}_i ,0,\ldots,0) \in \mathbb{R}^k \text{.}\) Then</p>
+<div class="displaymath">
+\begin{equation*}
+A \mathbf{u}_i = A_+ \mathbf{z}_i  = A_+ \mathbf{x}_+ = A \mathbf{x} = \mathbf{b} \text{,}
+\end{equation*}
+</div>
+<p data-braille="continuation">so \(\mathbf{u}_i \in P \) are both solutions. Now the solution \(\mathbf{x}\) can be represented as a non-trivial convex combination \(\mathbf{x} = \frac{1}{2} \mathbf{u}_1 + \frac{1}{2} \mathbf{u}_2\) of solutions, which contradicts the assumption that \(\mathbf{x}\) is an extreme point. We conclude that the rank of \(A_+\) must be \(p\text{.}\) Since \(\mathrm{rank}(A) = N\text{,}\) we deduce also \(p \le N\text{.}\)</p>
+<p id="p-218">If \(p \lt N\text{,}\) then since \(\mathrm{rank}(A) = N\) it is possible to form an invertible matrix \(B\) by adding some further columns of \(A\) to the matrix \(A_+\text{.}\) If instead \(p=N\text{,}\) then continue with \(B= A_+\text{.}\) Let \(\bar {\mathbf{x}} = (\mathbf{x}_+,0,\ldots,0) \in \mathbb{R}^{N} \text{.}\) Then</p>
+<div class="displaymath">
+\begin{equation*}
+B \bar {\mathbf{x}} =A_+ \mathbf{x}_+=A \mathbf{x}  = \mathbf{b}
+\end{equation*}
+</div>
+<p data-braille="continuation">so \(\bar{\mathbf{x}}=B^{-1}(\mathbf{b})\) and the claim follows.</p></article></div>
+<p id="p-219">To determine whether the set \(P\) is empty, by <a class="xref" data-knowl="./knowl/lemma-extremal_exists1.html" title="Lemma A.2">Lemma A.2</a> it is enough to check the possible extreme points, and <a class="xref" data-knowl="./knowl/lemma-extremals-come-with-particular-construction.html" title="Lemma A.3">Lemma A.3</a> tells us how to construct these points. Thus we have proven the following algorithm.</p>
+<article class="algorithm theorem-like" id="algorithm-positivisable"><h6 class="heading">
+<span class="type">Algorithm</span><span class="space"> </span><span class="codenumber">A.4</span><span class="period">.</span><span class="space"> </span><span class="title">Existence of a positive realization.</span>
+</h6>
+<p id="p-220">Input: A grading \(\mathcal{V}\) for a Lie algebra \(\mathfrak{g}\) over any field. Output: Whether \(\mathcal{V}\) admits a positive realization or not.</p>
+<ol class="decimal">
+<li id="alg-pos-setup">Form the \(N \times k\) matrix \(A\) and the vector \(\mathbf{b}\) associated with the problem.</li>
+<li id="alg-pos-subinverses">For each invertible \(N\times N\) matrix \(B\) formed from the columns of the matrix \(A\) do the following: Compute \(\mathbf{x}=B^{-1}(\mathbf{b})\text{.}\) If \(\mathbf{x} \ge 0\text{,}\) then return that the grading admits a positive realization.</li>
+<li id="alg-pos-non-positive">Otherwise, return that the grading has no positive realization.</li>
+</ol></article><article class="remark remark-like" id="rmk-distinctness-can-be-unworried"><h6 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">A.5</span><span class="period">.</span>
+</h6>
+<p id="p-221">In <a class="xref" data-knowl="./knowl/algorithm-positivisable.html" title="Algorithm A.4: Existence of a positive realization">Algorithm A.4</a>, even if some \(\mathbf{x} = B^{-1}(\mathbf{b}) \ge 0\text{,}\) then the corresponding weights \(x_i+1,\ldots,x_k+1\) do not necessarily define a realization of the original grading, since in general these weights are non-distinct and hence define a coarser grading. By <a class="xref" data-knowl="./knowl/lemma-universal-of-coarsening.html" title="Lemma 2.16">Lemma 2.16</a> this coarser grading is a push-forward grading of the universal realization of the original grading, via a homomorphism from some \(\mathbb{Z}^m\) to \(\mathbb{R}\) mapping the weights to \(x_1+1,\ldots,x_k+1\text{.}\) The homomorphism is realised by a projection to some vector of \(\mathbb{R}^m\text{,}\) as in the proof of <a class="xref" data-knowl="./knowl/prop-Z-gradings-to-positive-forward.html" title="Lemma 3.7">Lemma 3.7</a>. By perturbing this vector a little, it is always possible to find another homomorphism that is injective on the weights and maps all the weights to positive reals. Hence there is also a positive realization of the original grading.</p></article></section></div></main>
+</div>
+</body>
+</html>

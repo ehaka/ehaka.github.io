@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--**************************************-->
+<!--*    Generated from PreTeXt source   *-->
+<!--*    on 2020-10-30T07:31:58+01:00    *-->
+<!--*                                    *-->
+<!--*      https://pretextbook.org       *-->
+<!--*                                    *-->
+<!--**************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+<article class="algorithm theorem-like"><h6 class="heading">
+<span class="type">Algorithm</span><span class="space"> </span><span class="codenumber">2.14</span><span class="period">.</span><span class="space"> </span><span class="title">Universal realization.</span>
+</h6>
+<p>Input: a grading \(\mathcal V\) that has a realization. Output: a universal realization \(\widetilde {\mathcal V}\) of \(\mathcal V \text{.}\)</p>
+<ol class="decimal">
+<li>Let \(\Omega = \{\alpha_1,\dots,\alpha_n \}\) be the weights of \(\mathcal V\) and let \(B = \{e_1,\dots,e_n \}\) be the canonical basis of \(\ZZ^n\text{.}\) Set \(R = \{0 \}\text{.}\)</li>
+<li>Repeat for all pairs \(\alpha_i, \alpha_j \in \Omega\text{:}\) If \(0 \neq [V_{\alpha_i}, V_{\alpha_j}] \subseteq V_{\alpha_k} \) for some \(\alpha_k \in \Omega\text{,}\) extend \(R\) by \(e_i + e_j - e_k \text{.}\)</li>
+<li>For all \(i=1,\dots,n\text{,}\) set \(\widetilde V_{\pi(e_i)} = V_{\alpha_i}\text{,}\) where \(\pi \colon \ZZ^n \to \ZZ^n/\langle R\rangle\) is the projection. Return the obtained \(\ZZ^n/\langle R\rangle\)-grading.</li>
+</ol></article><article class="hiddenproof"><a class="original" data-knowl="./knowl/proof-3-hidden.html" title="Proof 2.14.1: Proof of correctness"><h6 class="heading"><span class="title">Proof of correctness.</span></h6></a></article><span class="incontext"><a href="section-gradings.html#algorithm-integer-vector-grading">in-context</a></span>
+</body>
+</html>
