@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-10-30T07:31:59+01:00    *-->
+<!--*    on 2020-11-13T12:10:24+01:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -13,7 +13,7 @@
 </head>
 <body>
 <h6 class="heading"><span class="type">Paragraph</span></h6>
-<p>As a starting point we used the classifications of nilpotent Lie algebras given in <a class="xref" data-knowl="./knowl/Cicalo-deGraaf-Schneider-2012-6d_nilpotent_lie_algebras.html" title="Bibliographic Entry 4: Six-dimensional nilpotent Lie algebras">[4]</a> for dimension 6, <a class="xref" data-knowl="./knowl/deGraaf-2007-dim_6_nilpotent_lie_algebras.html" title="Bibliographic Entry 14: Classification of 6-dimensional nilpotent Lie algebras over fields of characteristic not 2">[14]</a> for dimensions less than 6, and <a class="xref" data-knowl="./knowl/gong.html" title="Bibliographic Entry 20: Classification of nilpotent Lie algebras of dimension 7 (over algebraically closed fields and R)">[20]</a> for dimension 7. The classification up to dimension 6 has a pre-existing computer implementation in the GAP package <a class="xref" data-knowl="./knowl/LieAlgDB2.2.html" title="Bibliographic Entry 5: LieAlgDB, a database of lie algebras, Version 2.2">[5]</a>. However these Lie algebras are not always given in a basis adapted to any maximal grading, so we first compute the maximal grading using the methods described in <a href="section-constructions.html#section-maximal-construction" class="internal" title="Subsection 3.3: Maximal gradings">Subsection 3.3</a> and switch to a basis adapted to the resulting grading.</p>
+<p>To compute the precise equivalence classes, we naively check if the gradings within each family \(I_i\) are equivalent. For each pair of an \(A\)-grading \(\mathfrak{g}=\bigoplus_{\alpha\in A} V_\alpha\) and a \(B\)-grading \(\mathfrak{g}=\bigoplus_{\beta\in B} W_\beta\text{,}\) there are usually only a few homomorphisms \(f\colon A\to B\) with \(\dim V_\alpha=\dim W_{f(\beta)}\text{.}\) For each such homomorphism \(f\text{,}\) we need to check whether there exists an automorphism \(\Phi\in\Aut(\mathfrak{g})\) such that \(\Phi(V_\alpha)=W_{f(\beta)}\) for all weights \(\alpha\text{.}\) These identities define a system of quadratic equations. Since we are working over an algebraically closed field, the system has no solution if and only if 1 is contained in the ideal defined by the polynomial equations. The dimensions of the layers are generally quite small in the cases we need to check, so Gröbner basis methods work well.</p>
 <span class="incontext"><a href="section-applications.html#p-155">in-context</a></span>
 </body>
 </html>

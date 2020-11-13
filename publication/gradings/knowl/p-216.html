@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-10-30T07:31:59+01:00    *-->
+<!--*    on 2020-11-13T12:10:25+01:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -13,7 +13,13 @@
 </head>
 <body>
 <h6 class="heading"><span class="type">Paragraph</span></h6>
-<p>Let \(P\) be the set of non-negative solutions of a system \(A\mathbf{x}=\mathbf{b}\) as in <a class="xref" data-knowl="./knowl/the-set-of-interest-P.html" title="Equation A.1">(A.1)</a>. Let \(\mathbf{x} \in \mathbb{R}^{k} \) be an extremal point of \(P\text{.}\) Then there exists an invertible \(N \times N\) matrix \(B\) whose columns are chosen from the matrix \(A\text{,}\) such that up to a permutation of components, \(\mathbf{x} = (B^{-1}(\mathbf{b}),0,\ldots,0) \in \mathbb{R}^k\text{.}\)</p>
+<p>If \(p \lt N\text{,}\) then since \(\operatorname{rank}(A) = N\) it is possible to form an invertible matrix \(B\) by adding some further columns of \(A\) to the matrix \(A_+\text{.}\) If instead \(p=N\text{,}\) then continue with \(B= A_+\text{.}\) Let \(\bar {\mathbf{x}} = (\mathbf{x}_+,0,\ldots,0) \in \mathbb{R}^{N} \text{.}\) Then</p>
+<div class="displaymath">
+\begin{equation*}
+B \bar {\mathbf{x}} =A_+ \mathbf{x}_+=A \mathbf{x}  = \mathbf{b}
+\end{equation*}
+</div>
+<p data-braille="continuation">so \(\bar{\mathbf{x}}=B^{-1}(\mathbf{b})\) and the claim follows.</p>
 <span class="incontext"><a href="section-positive-gradings.html#p-216">in-context</a></span>
 </body>
 </html>

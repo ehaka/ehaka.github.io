@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-10-30T07:31:59+01:00    *-->
+<!--*    on 2020-11-13T12:10:24+01:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -13,22 +13,16 @@
 </head>
 <body>
 <article class="hiddenproof"><h6 class="heading"><span class="type">Proof</span></h6>
-<p>Denoting \(\mathfrak{t} = \mathfrak{t}_1 \times \mathfrak{t}_2\text{,}\) let \(D \in C(\mathfrak{t})\) be a diagonalizable derivation in the centralizer \(C(\mathfrak{t})\text{.}\) To show the maximality of \(\mathfrak{t}\text{,}\) it suffices to show that \(D \in \mathfrak{t}\text{.}\) In a basis adapted to the product we may represent</p>
+<p>Let \(Y_1,\ldots,Y_n\) be a basis of \(\mathfrak{g}\) that diagonalizes \(\delta\text{.}\) Fix some \(Y=Y_i\) and let \(w_Y\) and \(w_X\) be the eigenvalues of the eigenvectors \(Y\) and \(X\text{.}\) Since \(\delta\) is a derivation and \(X\) and \(Y\) are eigenvectors, the vectors \(\ad_X^kY\) are also eigenvectors, and have the eigenvalues \(kw_X+w_Y\text{.}\) Using this fact, and recalling that \(\Ad_{\exp(X)} = e^{\ad_X}\text{,}\) see Proposition 1.91 of <a class="xref" data-knowl="./knowl/knapp-beyond-introduction.html" title="Bibliographic Entry 21: Lie groups beyond an introduction">[21]</a>, we compute</p>
 <div class="displaymath">
-\begin{equation*}
-D = \begin{bmatrix}
-E_1 \amp F_1 \\ F_2 \amp E_2
-\end{bmatrix}\text{,}
-\end{equation*}
+\begin{align*}
+\delta\circ\Ad_{\exp(-X)}(Y) \amp= \delta\Big(\sum_{k=0}^\infty \frac{1}{k!}\ad_{-X}^kY\Big)\\
+\amp= \sum_{k=0}^\infty\frac{1}{k!}(kw_X+w_Y)\ad_{-X}^kY\\
+\amp= \sum_{k=1}^\infty\frac{1}{(k-1)!}\ad_{-X}^{k-1}[-w_XX,Y]+\sum_{k=0}^\infty\frac{1}{k!}\ad_{-X}^k(w_YY)\\
+\amp=\sum_{k=0}^\infty\frac{1}{k!}\ad_{-X}^k(-[w_XX,Y]+w_YY)\\
+\amp=\Ad_{\exp(-X)}(-\ad_{\delta(X)}Y+\delta(Y))\text{.}
+\end{align*}
 </div>
-<p data-braille="continuation">where \(E_1\in \der(\g_1)\text{,}\) \(E_2\in \der(\g_2)\text{,}\) and \(F_1\colon \g_2\to\g_1\) and \(F_2\colon \g_1\to \g_2\) are some linear maps. We are going to demonstrate that \(E_1\in \mathfrak t_1\text{,}\) \(E_2\in \mathfrak t_2\) and \(F_1=F_2=0\text{,}\) which would prove that \(D = E_1\times E_2 \in \mathfrak t\text{.}\)</p>
-<p>Let \(D_1 \in \mathfrak t_1\text{.}\) By assumption \(D\) commutes with \(D_1\times 0 \in \mathfrak t\text{,}\) so a simple computation shows that \(E_1\) commutes with \(D_1\) and \(D_1 F_1 = 0\text{.}\) Since \(D_1\) is arbitrary, we obtain \(E_1 \in C(\mathfrak t_1) \text{.}\) From the fact that \(D_1F_1 = 0\) for every \(D_1 \in \mathfrak t_1\) we get</p>
-<div class="displaymath">
-\begin{equation*}
-\pp{Im}(F_1) \subset  \bigcap_{D_1\in \mathfrak t_1} \ker(D_1) = \{0\},
-\end{equation*}
-</div>
-<p data-braille="continuation">where the last equality follows from the non-degeneracy of \(\mathfrak t_1\text{.}\) Consequently, \(F_1 = 0\text{.}\)</p>
-<p>A similar argument shows that \(E_2 \in C(\mathfrak t_2)\) and \(F_2=0\text{.}\) Since \(D\) is assumed diagonalizable, it follows that \(E_1\) and \(E_2\) are diagonalizable. Then by maximality of \(\mathfrak t_1\) and \(\mathfrak t_2\) we have \(E_1\in \mathfrak t_1\) and \(E_2\in \mathfrak t_2\text{,}\) which shows that \(D = E_1\times E_2 \in \mathfrak t\text{.}\)</p></article><span class="incontext"><a href="section-applications.html#proof-14">in-context</a></span>
+<p data-braille="continuation">By cancellation of \(\Ad_{\exp(X)}\) and \(\Ad_{\exp(-X)}\text{,}\) the claimed formula follows.</p></article><span class="incontext"><a href="section-applications.html#proof-14">in-context</a></span>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-10-30T07:31:58+01:00    *-->
+<!--*    on 2020-11-13T12:10:23+01:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -9,7 +9,7 @@
 <html lang="en-US">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>The complete classification in low dimension</title>
+<title>Complete classification in low dimension</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script type="text/x-mathjax-config">
@@ -54,40 +54,20 @@ MathJax.Hub.Config({
 <!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link href="developer.css" rel="stylesheet" type="text/css">
 </head>
 <body id="gradings" class="mathbook-article has-toc has-sidebar-left">
-<a class="assistive" href="#content">Skip to main content</a><div class="hidden-content" style="display:none">\(\newcommand{\RR}{\mathbb{R}}
-\newcommand{\QQ}{\mathbb{Q}}
-\newcommand{\NN}{\mathbb{N}}
-\newcommand{\ZZ}{\mathbb{Z}}
-\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+<a class="assistive" href="#content">Skip to main content</a><div class="hidden-content" style="display:none">\(\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
 \newcommand{\restr}[2]{\left.#1\right\vert_{#2}}
-\newcommand{\trestr}[2]{}
-\newcommand{\boundedpol}[1]{P_{#1}}
-\newcommand{\realdiag}[1]{\mathcal{R}(#1)}
-\newcommand{\division}{\operatorname{div}}
-\newcommand{\gradingrefinements}[1]{\operatorname{ext}(#1)}
-\newcommand{\quotientprojection}{\pi}
 \newcommand{\der}{\operatorname{der}}
-\newcommand{\gradingpreservingmaps}{L}
+\newcommand{\Aut}{\operatorname{Aut}}
 \newcommand{\ad}{\operatorname{ad}}
 \newcommand{\Ad}{\operatorname{Ad}}
-\newcommand{\partitions}[2]{P(#1,#2)}
-\newcommand{\homogeneousform}{Q}
-\newcommand{\multilinearmap}{B}
-
-\newcommand{\vali}[1]{\mathopen{]} #1 \mathclose{[}}
-\newcommand{\valir}[1]{\mathopen{[} #1 \mathclose{[}}
-\newcommand{\valil}[1]{\mathopen{]} #1 \mathclose{]}}
-\newcommand{\pp}[1]{\mathrm{#1}}
-\newcommand{\Partition}{\mathcal{K}}
-
-\newcommand{\g}{\mathfrak g}
+\newcommand{\positiveset}{\mathbf{A}_+}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
 \)</div>
 <header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
 <a id="logo-link" href=""></a><div class="title-container">
-<h1 class="heading"><a href="gradings_of_nilpotent_lie_alg.html"><span class="title">Gradings for nilpotent Lie algebras</span></a></h1>
+<h1 class="heading"><a href="gradings.html"><span class="title">Gradings for nilpotent Lie algebras</span></a></h1>
 <p class="byline">Eero Hakavuori, Ville Kivioja, Terhi Moisala, Francesca Tripaldi</p>
 </div>
 </div></div>
@@ -138,7 +118,7 @@ MathJax.Hub.Config({
 <li class="link backmatter"><a href="backmatter-1.html" data-scroll="backmatter-1"><span class="title">Back Matter</span></a></li>
 <li class="link"><a href="section-positive-gradings.html" data-scroll="section-positive-gradings"><span class="codenumber">A</span> <span class="title">Existence of a positive realization</span></a></li>
 <li class="link active">
-<a href="appendix-classification.html" data-scroll="appendix-classification"><span class="codenumber">B</span> <span class="title">The complete classification in low dimension</span></a><ul>
+<a href="appendix-classification.html" data-scroll="appendix-classification"><span class="codenumber">B</span> <span class="title">Complete classification in low dimension</span></a><ul>
 <li><a href="appendix-classification.html#classification-overview" data-scroll="classification-overview">Overview</a></li>
 <li><a href="classification-dim2.html">Dimension 2</a></li>
 <li><a href="classification-dim3.html">Dimension 3</a></li>
@@ -153,20 +133,22 @@ MathJax.Hub.Config({
 </ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
 </div></div>
 <main class="main"><div id="content" class="pretext-content"><section class="appendix" id="appendix-classification"><h2 class="heading hide-type">
-<span class="type">Appendix</span> <span class="codenumber">B</span> <span class="title">The complete classification in low dimension</span>
+<span class="type">Appendix</span> <span class="codenumber">B</span> <span class="title">Complete classification in low dimension</span>
 </h2>
 <section class="subsection" id="classification-overview"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">B.1</span> <span class="title">Overview</span>
 </h3>
-<p id="p-222">The following pages contain the classification of gradings of all nilpotent Lie algebras up to dimension 6 and a representative sample of nilpotent Lie algebras of dimension 7. The gradings are organized by</p>
+<p id="p-220">The following pages contain the classification of <a class="xref" data-knowl="./knowl/def-grading.html" title="Definition 2.1">gradings</a> of all nilpotent Lie algebras up to dimension 6 and a representative sample of nilpotent Lie algebras of dimension 7. The gradings are organized by</p>
 <ul class="disc">
 <li id="li-35">dimension</li>
 <li id="li-36">central series (only in dimension 7)</li>
 <li id="li-37">Lie algebra</li>
-<li id="li-38">rank of the grading</li>
-<li id="li-39">dimensions of the layers</li>
+<li id="li-38">
+<a class="xref" data-knowl="./knowl/par-rank-and-type.html" title="Paragraph">rank</a> of the grading</li>
+<li id="li-39">dimensions of the <a class="xref" data-knowl="./knowl/def-grading.html" title="Definition 2.1">layers</a>
+</li>
 </ul>
-<p id="p-223">Gradings are named as \(r.d_1d_2\ldots d_nl\text{,}\) where \(r\) is the rank of the grading, \(d_1,\ldots,d_n\) are the dimensions of the layers (in increasing order) and \(l\) is a letter \(a,b,c,\ldots\) used to distinguish non-isomorphic gradings with the same rank and type. For example consider the Heisenberg Lie algebra \(L_{3,2}\) in the basis \(Y_1,Y_2,Y_3\) with the Lie bracket defined by \([Y_1,Y_2]=Y_3\text{.}\) The maximal grading is a rank 2 grading</p>
+<p id="p-221">Gradings are named as \(r.d_1d_2\ldots d_nl\text{,}\) where \(r\) is the rank of the grading, \(d_1,\ldots,d_n\) are the dimensions of the layers (in increasing order) and \(l\) is a letter \(a,b,c,\ldots\) used to distinguish non-<a class="xref" data-knowl="./knowl/def-equivalent-group-gradings.html" title="Definition 2.8">equivalent</a> gradings with the same rank and <a class="xref" data-knowl="./knowl/par-rank-and-type.html" title="Paragraph">type</a>. For example consider the Heisenberg Lie algebra \(L_{3,2}\) in the basis \(Y_1,Y_2,Y_3\) with the Lie bracket defined by \([Y_1,Y_2]=Y_3\text{.}\) The maximal grading is a rank 2 grading</p>
 <div class="displaymath">
 \begin{equation*}
 V_{(1,0)} = \langle Y_1\rangle,\quad
@@ -174,7 +156,7 @@ V_{(0,1)} = \langle Y_2\rangle,\quad
 V_{(1,1)} = \langle Y_3\rangle,\quad
 \end{equation*}
 </div>
-<p data-braille="continuation">with 3 layers of dimension 1 and is classified as grading 2.3a of \(L_{3,2}\text{.}\) The stratification</p>
+<p data-braille="continuation">with 3 layers of dimension 1 and is classified as grading 2.3a of \(L_{3,2}\text{.}\) The <a class="xref" data-knowl="./knowl/def-stratification.html" title="Definition 3.1">stratification</a></p>
 <div class="displaymath">
 \begin{equation*}
 V_{1} = \langle Y_1,Y_2\rangle,\quad
@@ -188,7 +170,7 @@ V_{0} = \langle Y_1\rangle,\quad
 V_{1} = \langle Y_2,Y_3\rangle\text{.}
 \end{equation*}
 </div>
-<p id="p-224">Gradings that admit a positive realization are highlighted in blue and the stratification is highlighted in red. Any parent class is similarly highlighted in blue or red, so for instance any Lie algebra which admits a stratification has a red highlight, and any grading type that admits a positive grading has a blue highlight.</p></section> </section></div></main>
+<p id="p-222">Gradings that admit a <a class="xref" data-knowl="./knowl/def-positive-grading.html" title="Definition 3.6">positive</a> <a class="xref" data-knowl="./knowl/def-realization.html" title="Definition 2.2">realization</a> are highlighted in blue and the stratification is highlighted in red. Any parent class is similarly highlighted in blue or red, so for instance any Lie algebra which admits a stratification has a red highlight, and any grading type that admits a positive grading has a blue highlight.</p></section> </section></div></main>
 </div>
 </body>
 </html>

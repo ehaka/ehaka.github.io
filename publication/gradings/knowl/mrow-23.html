@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-10-30T07:31:59+01:00    *-->
+<!--*    on 2020-11-13T12:10:24+01:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -13,9 +13,13 @@
 </head>
 <body>
 <div class="displaymath">
-\begin{gather*}
-\max_{\mathbf{a}\in\mathbb{R}^k_+,x,y}\big\{x-y\mid x\le w(\theta)_\mathbf{a},y\ge w(\tilde{\theta})_\mathbf{a},\forall\,\theta\in E_0^h,\tilde{\theta}\in E_0^{h-1},Q_\mathbf{a}=1\big\}
-\end{gather*}
+\begin{align*}
+\text{Maximize}\quad \amp x-y\\
+\text{subject to}\quad x\amp\le w(\theta)_\mathbf{a}\quad \forall\,\theta\in E_0^h,\\
+y\amp\ge w(\tilde{\theta})_\mathbf{a}\quad \forall \tilde{\theta}\in E_0^{h-1},\\
+Q_\mathbf{a}\amp=1,\quad
+\mathbf{a}\in\positiveset
+\end{align*}
 </div>
 <span class="incontext"><a href="section-applications.html#mjx-eqn-mrow-23">in-context</a></span>
 </body>

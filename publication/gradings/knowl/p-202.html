@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--**************************************-->
 <!--*    Generated from PreTeXt source   *-->
-<!--*    on 2020-10-30T07:31:59+01:00    *-->
+<!--*    on 2020-11-13T12:10:24+01:00    *-->
 <!--*                                    *-->
 <!--*      https://pretextbook.org       *-->
 <!--*                                    *-->
@@ -13,29 +13,13 @@
 </head>
 <body>
 <h6 class="heading"><span class="type">Paragraph</span></h6>
-<p>For the Lie algebra \(L_{6,10}\text{,}\) the maximal grading is over \(\mathbb{Z}^3\) with the layers</p>
+<p>Similarly, once we re-express</p>
 <div class="displaymath">
-\begin{align*}
-V_{(0,1,0)}\amp=\langle X_1\rangle,\amp
-V_{(0,0,1)}\amp=\langle X_2\rangle,\amp
-V_{(0,1,1)}\amp=\langle X_3\rangle\\
-V_{(0,2,1)}\amp=\langle X_4\rangle,\amp
-V_{(1,0,0)}\amp=\langle X_5\rangle,\amp
-V_{(-1,2,1)}\amp=\langle X_6\rangle\text{.}
-\end{align*}
+\begin{gather*}
+\max_{\mathbf{a}\in\positiveset}\bigg\{\frac{\delta N_{\min}(2)}{Q_{\mathbf{a}}}\bigg\} \text{.}
+\end{gather*}
 </div>
-<p data-braille="continuation">Therefore, the family of projections \(\pi \colon \ZZ^3 \to \RR_+\) parametrized by \(\pi(e_i)=a_i\text{,}\) \(i=1,2,3\text{,}\) gives us all the possible weights of left-invariant 1-forms:</p>
-<div class="displaymath">
-\begin{align*}
-w(\theta_1)_{(a_1,a_2,a_3)}\amp=\pi((0,1,0))=a_1;\\
-w(\theta_2)_{(a_1,a_2,a_3)}\amp=\pi((0,0,1))=a_2;\\
-w(\theta_3)_{(a_1,a_2,a_3)}\amp=\pi((0,1,1))=a_1+a_2;\\
-w(\theta_4)_{(a_1,a_2,a_3)}\amp=\pi((0,2,1))=2a_1+a_2;\\
-w(\theta_5)_{(a_1,a_2,a_3)}\amp=\pi((1,0,0))=a_3;\\
-w(\theta_6)_{(a_1,a_2,a_3)}\amp=\pi((-1,2,1))=2a_1+a_2-a_3.
-\end{align*}
-</div>
-<p data-braille="continuation">The homogeneous dimension is \(Q_{(a_1,a_2,a_3)}=6a_1+4a_2\text{.}\)</p>
+<p data-braille="continuation">as a linear optimization problem and feed it into a solver, we get the result \(\frac{1}{10}\text{,}\) obtained (up to rescaling) by taking \(a_2=a_3=2\) and \(a_1=3\text{.}\) Therefore \(\ell^{q,p}H^2(G)\neq 0\) for \(\frac{1}{p}-\frac{1}{q}\lt\frac{1}{10}\text{.}\)</p>
 <span class="incontext"><a href="section-applications.html#p-202">in-context</a></span>
 </body>
 </html>
