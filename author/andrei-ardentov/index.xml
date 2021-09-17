@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3 | Eero Hakavuori</title>
-    <link>/publication-type/3/</link>
-      <atom:link href="/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
-    <description>3</description>
+    <title>Andrei Ardentov | Eero Hakavuori</title>
+    <link>/author/andrei-ardentov/</link>
+      <atom:link href="/author/andrei-ardentov/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrei Ardentov</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Eero Hakavuori</copyright><lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>3</title>
-      <link>/publication-type/3/</link>
+      <title>Andrei Ardentov</title>
+      <link>/author/andrei-ardentov/</link>
     </image>
     
     <item>
@@ -17,22 +17,6 @@
       <link>/publication/cartan-geodesics/</link>
       <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
       <guid>/publication/cartan-geodesics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gradings for nilpotent Lie algebras</title>
-      <link>/publication/gradings/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/gradings/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blowups and blowdowns of geodesics in Carnot groups</title>
-      <link>/publication/cones/</link>
-      <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/cones/</guid>
       <description></description>
     </item>
     
