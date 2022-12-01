@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/</loc>
+    <lastmod>2022-12-01T12:15:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/helsinki_abnormals/</loc>
+    <lastmod>2022-12-01T12:15:00+00:00</lastmod>
+  </url><url>
     <loc>/publication-type/2/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -9,9 +15,6 @@
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/eero-hakavuori/</loc>
-    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/francesca-tripaldi/</loc>
