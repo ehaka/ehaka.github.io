@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc projects | Eero Hakavuori</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Misc projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2023 Eero Hakavuori</copyright><lastBuildDate>Sun, 05 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Misc projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>Infinite jigsaw</title>
+      <link>/project/jeandel-rao-tiling/</link>
+      <pubDate>Sun, 05 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>/project/jeandel-rao-tiling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lie algebra central extensions</title>
+      <link>/project/lie-builder/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/project/lie-builder/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
