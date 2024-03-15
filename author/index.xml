@@ -12,5 +12,23 @@
       <link>/author/</link>
     </image>
     
+    <item>
+      <title></title>
+      <link>/author/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/author/</guid>
+      <description>&lt;p&gt;I am an academy postdoc researcher at the 
+&lt;a href=&#34;https://www.helsinki.fi/en/faculty-science/faculty/mathematics-and-statistics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Helsinki&lt;/a&gt;. Between 2019-2022 I was a postdoc at 
+&lt;a href=&#34;https://www.math.sissa.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SISSA&lt;/a&gt;. I completed my PhD in 2019 at the 
+&lt;a href=&#34;https://www.jyu.fi/science/en/maths&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Jyväskylä&lt;/a&gt; under the supervision of 
+&lt;a href=&#34;https://sites.google.com/view/enricoledonne/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Enrico Le Donne&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My work mainly deals with sub-Riemannian geometry and computational mathematics.
+On the sub-Riemannian side of things I am particularly interested in Carnot groups and everything related to the so called abnormal curves, whose properties are the topic of interest of open problems such as the regularity of geodesics and the Sard problem.
+Within the computational realm I am mainly interested in applications within pure mathematics such as exact computation (e.g. in real algebraic geometry) or developing methods and tools to aid in finding new and interesting examples.
+My computer algebra system of choice is the free open-source project 
+&lt;a href=&#34;https://www.sagemath.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SageMath&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
